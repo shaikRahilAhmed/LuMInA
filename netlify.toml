@@ -1,7 +1,7 @@
 [build]
-  base = "LuMInA-2K25"                      # <-- Folder where package.json exists
-  command = "npm install && npm run build && npm run export"
-  publish = "LuMInA-2K25/out"               # <-- Path to static export folder
+base = "LuMInA-2k25"                       # <-- folder where package.json exists
+command = "npm install && npm run build && npm run export"
+publish = "LuMInA-2k25/out"                # <-- exported static folder
 
 [build.environment]
-  NODE_VERSION = "18"
+NODE_VERSION = "18"
